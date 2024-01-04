@@ -35,7 +35,7 @@ export default defineUserConfig({
     commentPlugin({
       provider: "Giscus",
       comment: true,
-      repo: "Xenon-RS/docs",
+      repo: "Xenon-RS/docs-discuss",
       repoId: "R_kgDOLAywFg",
       category: "General",
       categoryId: "DIC_kwDOLAywFs4CcMeT"
