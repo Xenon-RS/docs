@@ -1,0 +1,54 @@
+---
+home: true
+icon: home
+title: 主页
+heroImage: /logo.svg
+bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
+bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+bgImageStyle:
+  background-attachment: fixed
+heroText: Xenon Docs
+tagline: 你也许能在这里找到对你有用的东西
+actions:
+  - text: 进入Docs
+    icon: lightbulb
+    link: ./server/announcement
+    type: primary
+
+  - text: 关于
+    link: ./about/
+
+highlights:
+  - header: 快速导览
+    description: 你也许能在下面的快速导览按钮中，从几吨文档里面找到你想要的。
+    image: /assets/image/markdown.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    bgImageStyle:
+      background-repeat: repeat
+      background-size: initial
+    features:
+      - title: 游戏安装
+        icon: clipboard-check
+        details: 游戏的安装教程
+
+      - title: 游戏下载
+        icon: box-archive
+        details: 游戏下载地址
+
+      - title: 服务器公告
+        icon: bell
+        details: 公告很重要
+
+      - title: 排行榜
+        icon: table-columns
+        details: 服务器排行榜
+
+      - title: 数据
+        icon: code
+        details: 一些常见的游戏内数据
+
+      - title: 问题修复
+        icon: align-center
+        details: 你也许用得上
+---
