@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
-import { hopeTheme } from "vuepress-theme-hope";
+import { comment, hopeTheme } from "vuepress-theme-hope";
+import { commentPlugin } from "vuepress-plugin-comment2";
 import navber from "./navbar";
 import sidebar from "./sidebar";
 
@@ -22,10 +23,22 @@ export default defineUserConfig({
     fullscreen: true,
     
     // GitHub仓库链接
-    repo: "Xenon-RS/docs",
+    //repo: "Xenon-RS/docs",
 
     displayFooter: true,
     footer: "使用 <a href=\"https://theme-hope.vuejs.press/zh/\" target=\"_blank\">VuePress Theme Hope</a> 主题 | MIT 协议",
     copyright: "版权所有 &copy 2023 ~ Present <a href=\"https://github.com/kKsk03\" target=\"_blank\">kKsk</a>"
-  })
+  }),
+
+  plugins: [
+
+    commentPlugin({
+      provider: "Giscus",
+      comment: true,
+      repo: "Xenon-RS/docs",
+      repoId: "R_kgDOLAywFg",
+      category: "General",
+      categoryId: "DIC_kwDOLAywFs4CcMeT"
+    })
+  ]
 });
