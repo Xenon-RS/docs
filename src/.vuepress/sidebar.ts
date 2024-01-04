@@ -25,4 +25,8 @@ export default sidebar({
       ]
     }
   ],
+  "/game/": [
+    { text: "游戏", icon: "gamepad", link: "/game/" },
+    { text: "游戏安装教程", icon: "download", link: "/game/install" },
+  ]
 });

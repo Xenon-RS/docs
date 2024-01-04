@@ -8,8 +8,14 @@ export default navbar([
     link: "/server/",
   },
   {
+    text: "游戏",
+    icon: "gamepad",
+    link: "/game/",
+  },
+  {
     text: "关于",
     icon: "circle-info",
     link: "/about/",
-  }
+  },
+  
 ]);
