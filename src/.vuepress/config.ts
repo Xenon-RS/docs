@@ -5,7 +5,7 @@ import navber from "./navbar";
 import sidebar from "./sidebar";
 
 export default defineUserConfig({
-  base: "/docs/",
+  base: "/",
 
   lang: "zh-CN",
   title: "Xenon Docs",
