@@ -13,9 +13,13 @@ export default navbar([
     link: "/game/",
   },
   {
+    text: "Wiki",
+    icon: "database",
+    link: "/wiki/",
+  },
+  {
     text: "关于",
     icon: "circle-info",
     link: "/about/",
   },
-  
 ]);

@@ -28,5 +28,40 @@ export default sidebar({
   "/game/": [
     { text: "游戏", icon: "gamepad", link: "/game/" },
     { text: "游戏安装教程", icon: "download", link: "/game/install" },
+    {
+      text: "游戏问题修复",
+      icon: "square-xmark",
+      prefix: "problem/",
+      collapsible: true,
+      children: [
+        { text: "游戏内问题", link: "in_game_problem" }
+      ]
+    }
+  ],
+  "/wiki/": [
+    { text: "Wiki", icon: "database", link: "/wiki/" },
+    { text: "比赛用仪表", icon: "tape", link: "meters" },
+    { text: "等级", icon: "layer-group", link: "levels" },
+    {
+      text: "车辆",
+      icon: "car",
+      prefix: "cars/",
+      collapsible: true,
+      children: [
+        { text: "Audi", link: "audi" },
+        { text: "BMW", link: "bmw" },
+        { text: "Chevrolet", link: "chevrolet" },
+        { text: "Dodge", link: "dodge" },
+        { text: "Honda", link: "honda" },
+        { text: "Lanborghini", link: "lanborghini" },
+        { text: "Mazda", link: "mazda" },
+        { text: "Mercedes-Benz", link: "mercedes" },
+        { text: "Misubitsu", link: "misubitsu" },
+        { text: "Nissan", link: "nissan" },
+        { text: "Prosche", link: "prosche" },
+        { text: "Subaru", link: "subaru" },
+        { text: "Toyota", link: "toyota" }
+      ]
+    }
   ]
 });

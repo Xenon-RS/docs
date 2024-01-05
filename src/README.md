@@ -29,26 +29,29 @@ highlights:
       background-size: initial
     features:
       - title: 游戏安装
-        icon: clipboard-check
+        icon: dice
         details: 游戏的安装教程
+        link: ./game/install
 
       - title: 游戏下载
-        icon: box-archive
+        icon: cloud-arrow-down
         details: 游戏下载地址
+        link: ./game/install#step1-下载并解压游戏
 
       - title: 服务器公告
-        icon: bell
+        icon: scroll
         details: 公告很重要
+        link: ./server/announcement
 
       - title: 排行榜
-        icon: table-columns
+        icon: ranking-star
         details: 服务器排行榜
 
       - title: 数据
-        icon: code
+        icon: database
         details: 一些常见的游戏内数据
 
       - title: 问题修复
-        icon: align-center
+        icon: square-xmark
         details: 你也许用得上
 ---
