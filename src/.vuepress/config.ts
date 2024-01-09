@@ -30,7 +30,11 @@ export default defineUserConfig({
 
     displayFooter: true,
     footer: "使用 <a href=\"https://theme-hope.vuejs.press/zh/\" target=\"_blank\">VuePress Theme Hope</a> 主题 | MIT 协议",
-    copyright: "版权所有 &copy 2023 ~ Present <a href=\"https://github.com/kKsk03\" target=\"_blank\">kKsk</a>"
+    copyright: "版权所有 &copy 2023 ~ Present <a href=\"https://github.com/kKsk03\" target=\"_blank\">kKsk</a>",
+
+    plugins: {
+      search: true
+    }
   }),
 
   plugins: [
