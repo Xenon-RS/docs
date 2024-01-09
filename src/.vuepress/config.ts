@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
 import { commentPlugin } from "vuepress-plugin-comment2";
+import { docsearchPlugin } from '@vuepress/plugin-docsearch';
 import navber from "./navbar";
 import sidebar from "./sidebar";
 
@@ -42,6 +43,12 @@ export default defineUserConfig({
       repoId: "R_kgDOLAywFg",
       category: "General",
       categoryId: "DIC_kwDOLAywFs4CcMeT"
+    }),
+
+    docsearchPlugin({
+      appId: "7P0FTAV9L9",
+      apiKey: "fe5e9af591c38b446b69c8de4f48c160",
+      indexName: "inedx_xenon",
     })
   ]
 });
