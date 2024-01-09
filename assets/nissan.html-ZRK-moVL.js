@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as n,c as t}from"./app-G1lh_KjY.js";const c={};function o(r,s){return n(),t("div")}const f=e(c,[["render",o],["__file","nissan.html.vue"]]);export{f as default};
