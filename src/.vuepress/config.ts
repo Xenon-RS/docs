@@ -50,9 +50,9 @@ export default defineUserConfig({
     }),
 
     docsearchPlugin({
-      appId: "7P0FTAV9L9",
-      apiKey: "fe5e9af591c38b446b69c8de4f48c160",
-      indexName: "inedx_xenon",
+      appId: "5OGLWFJIJU",
+      apiKey: "2fd19ed216eba033fb406e85229d6bc3",
+      indexName: "xenon-rs",
     })
   ]
 });
