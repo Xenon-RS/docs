@@ -63,5 +63,11 @@ export default sidebar({
         { text: "Toyota", link: "toyota" }
       ]
     }
+  ],
+  "/about/": [
+    { text: "关于Xenon", link: "/about/" },
+    { text: "声明", link: "/about/statement" },
+    { text: "成员", link: "/about/members" },
+    { text: "友情", link: "friendship" }
   ]
 });
