@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o,c as r}from"./app-5tEAY3lc.js";const n={};function t(c,_){return o(),r("div")}const l=e(n,[["render",t],["__file","lanborghini.html.vue"]]);export{l as default};
