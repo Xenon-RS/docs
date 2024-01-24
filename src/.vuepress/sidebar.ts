@@ -4,6 +4,7 @@ export default sidebar({
   "/server/": [
     { text: "服务器", icon: "server", link: "/server/" },
     { text: "公告", icon: "bullhorn", link: "/server/announcement" },
+    { text: "维护公告", icon: "screwdriver-wrench", link: "/server/maintain" },
     {
       text: "活动",
       icon: "calendar",
