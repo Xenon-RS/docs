@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as n,c,b as e,d as t}from"./app-EkvHEn3k.js";const s={},_=e("p",null,"本Wiki站点可由所有玩家前往GitHub对应页面修改并向main分支推送修改请求",-1),i=e("p",null,[t("目前基于 "),e("code",null,"WMMT6RR"),t(" 内容编写")],-1),l=[_,i];function r(a,d){return n(),c("div",null,l)}const f=o(s,[["render",r],["__file","index.html.vue"]]);export{f as default};
