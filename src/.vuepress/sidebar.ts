@@ -17,6 +17,7 @@ export default sidebar({
           prefix: "historyEvents/",
           collapsible: true,
           children: [
+            { text: "#5 OCM 11st 副都心区域", link: "5_OCM" },
             { text: "#4 OCM 18st 福冈区域", link: "4_OCM" },
             { text: "#3 OCM 13st 新环线区域", link: "3_OCM" },
             { text: "远古活动集", link: "ancientEvents" }
