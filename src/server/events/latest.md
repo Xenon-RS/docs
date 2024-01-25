@@ -12,7 +12,7 @@ OCM 10st 副都心区域 涉谷-新宿
 :::
 
 ::: details 本次OCM预赛的对手
-![](https://pic.imgdb.cn/item/65b1f765871b83018a861aa0.png)  
+![](https://pic.imgdb.cn/item/65b20d39871b83018ad14f4a.png)  
 :::
 
 **注意！游玩前请必须在群内安装本次OCM的补丁！否则会出现意外状况！**
