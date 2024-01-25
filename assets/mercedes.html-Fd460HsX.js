@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as c,c as r}from"./app-zrnTcIcQ.js";const t={};function o(_,s){return c(),r("div")}const a=e(t,[["render",o],["__file","mercedes.html.vue"]]);export{a as default};
