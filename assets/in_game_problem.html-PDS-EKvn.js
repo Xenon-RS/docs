@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as _,c as o}from"./app-Y5y3LIA_.js";const r={};function t(c,m){return _(),o("div")}const l=e(r,[["render",t],["__file","in_game_problem.html.vue"]]);export{l as default};
