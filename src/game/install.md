@@ -4,7 +4,7 @@ title: 游戏安装教程
 
 ## Step1 下载并解压游戏
 
-[游戏下载链接（访问码：qu5i）](https://cloud.189.cn/t/iuQ3iifq6vQv)
+[W6R下载](https://files.kksk-blog.site/d/Xenon/Game/W6R/W6R-XeNoN.7z)
 
 下载完成后请自行解压游戏，压缩包内自带一个WMMT6R文件夹，双击打开然后将其拖放出来其实就可以了
 
