@@ -28,7 +28,13 @@ export default defineConfig({
     },
 
     // 汉化
-    lastUpdatedText: '最后一次更新于:',
+    lastUpdated: {
+      text: '最后一次更新于：',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
     outlineTitle: '在此页面上的内容',
     docFooter: {
       next: '下一篇',
