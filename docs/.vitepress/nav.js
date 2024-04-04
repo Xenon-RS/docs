@@ -24,5 +24,5 @@ export const nav = [
       { text: '游戏安装教程', link: '/game/install' }
     ]
   },
-  { text: '关于', link: '/about' }
+  { text: '关于', link: '/about/about' }
 ];

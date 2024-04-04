@@ -24,5 +24,10 @@ export const sidebar = {
     '/game/': [
         { text: '新手入门指南', link: '/game/beginner' },
         { text: '游戏安装教程', link: '/game/install' }
+    ],
+
+    '/about/': [
+        { text: '关于', link: '/about/about' },
+        { text: '成员', link: '/about/members' }
     ]
 }

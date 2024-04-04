@@ -14,7 +14,7 @@ hero:
       link: /game/beginner
     - theme: alt
       text: 关于
-      link: /about
+      link: /about/about
 
 features:
   - title: Xenon 数据站
