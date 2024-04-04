@@ -107,11 +107,11 @@
 如果使用自动配置的过程中出现了异常问题，请按照手动配置的教程进行配置！
 
 ::: details 手动配置教程
-打开系统设置，打开**网络与Internet**，然后根据您目前连接的网络（WLAN/以太网），点击相对应的选项
+打开系统设置，打开**网络与Internet**，然后根据您目前连接的网络（WLAN/以太网），点击相对应的选项  
 
-以以太网为例，进入后应当如图所示：
+以以太网为例，进入后应当如图所示：  
 
-![pic1](https://pic.imgdb.cn/item/63fb3727f144a010072e01ae.jpg)
+![pic1](https://pic.imgdb.cn/item/63fb3727f144a010072e01ae.jpg)  
 
 我们需要知道该网络使用的适配器名字，在下面**描述**中可以看到适配器名  
 按照图中举例为`Realtek Gaming 2.5GbE Family Controller`  
@@ -126,13 +126,13 @@
 按照之前我们所记住的适配器名，我们找到对应的那一部分  
 如图为例，之前我们记住的适配器名为`Realtek Gaming 2.5GbE Family Controller`：
 
-![pic2](https://pic.imgdb.cn/item/63fb33c7f144a0100727750a.jpg)
+![pic2](https://pic.imgdb.cn/item/63fb33c7f144a0100727750a.jpg)  
 
 我们记住这一部分中的`默认网关与IPV4地址`，后续将要用到  
 然后，我们就要开始配置hosts文件了  
 
-打开以下路径：`C:\Windows\System32\drivers\etc`
-找到hosts文件，右键将其使用文本打开(推荐使用NotePad++，可在百度上或者是群内下载安装)  
+打开以下路径：`C:\Windows\System32\drivers\etc`  
+找到hosts文件，使用NotePad++打开，在群内下载安装  
 
 按照图例与下方给出的代码，将其对应着填写至您的hosts文件里（请不要填错！）  
 ```
@@ -142,7 +142,7 @@
 ```
 
 **服务器IP请至服务器群内公告或找人进行询问获取**  
-图片为正确填写的例子：
+图片为正确填写的例子：  
 
 ![pic3](https://pic.imgdb.cn/item/63fb3544f144a0100729d6c8.jpg)  
 
@@ -150,7 +150,7 @@
 **一定要按照你上述操作所显示的地址填写！**  
 
 建议填写后**往下回车空多几行**，以免其他软件使用hosts文件时导致最后一行丢失  
-最后**保存**即可
+最后**保存**即可  
 :::
 
 ## Step4 配置TP模拟器网络
