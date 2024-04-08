@@ -53,3 +53,21 @@ General - NetworkAdapterIP ===> 请填写你的IPv4地址
 ::: tip 解决方法
 请执行一次安装教程的[Step3](/game/install.html#step3-配置-hosts-与注册-iauthdll)部分  
 :::
+
+## 提示 `找不到 MSVCP14D.dll`
+
+您没有做好游戏运行库的 `Runtime` 部分的安装  
+
+::: tip 解决方法
+请重新做一次：[安装Runtime](/game/install.html#安装runtime)  
+:::
+
+## 游戏内车辆跑偏
+
+如果你不打方向，但是车辆跑偏的话，则需要重置一下转向  
+
+::: tip 解决方法
+1. 按下你设置的 `机修菜单` 键，进入 `机修菜单`   
+2. 选择 `入出力xxxx` 的选项并进入  
+3. 进入后，保持不打方向，按多几次进入，便会重置并进入测试画面  
+4. 再次按下 `机修菜单` 键，退出机修菜单  
